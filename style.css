@@ -1,0 +1,125 @@
+body {
+	background-color: #FFFFFF;
+	 font-family: Roboto Slab, serif;
+	 letter-spacing: 2px;
+	
+}
+
+h1 {
+ 	color:#5D001E;
+ 	font-family: Roboto Slab, serif;
+ 	 font-weight: bolder;  
+ 	 font-size: 70px; 
+ 	 letter-spacing:10px;
+}
+
+h2 {
+	font font-family: Roboto Slab, serif;
+	color:#5D001E;
+	font-weight: bold
+	letter-spacing:10px;  
+}
+
+ p {
+ 	font font-family: Roboto Slab, serif;
+ 	color:#AC3B61;
+ 	font-weight: bolder
+ 	letter-spacing:10px;
+ }
+
+ a {
+ 	font-family: Roboto Slab, serif;
+ 	text-decoration: none; 
+ 	color: #9A1750
+ 	letter-spacing:10px; 
+ }
+
+ a:hover {
+ 	opacity: 0.7;
+}
+ 
+ .container {
+  width: 900px; /* set the width of your container */
+  margin: 40px auto; /* set margins: top/bottom: 40px; left/right: automatic */
+}
+
+.list-inline {
+  list-style: none; /* kill the bullet points */
+  padding-left: 0px; /* kill remaining padding left */
+}
+.list-inline > li {
+  display: inline; /* change list item behavior to inline */
+  padding: 0px 20px; /* add som left/right padding between list items */
+}
+
+.img-circle {
+  border-radius: 50%;
+  }
+
+.text-center {
+  text-align: center;
+}
+
+.fa{
+border-radius: 100%;
+font-size: 28px;
+height: 38px;
+line-height: 40px;
+margin: 5px;
+text-align: center;
+width: 38px;
+border: 2px solid #3B5998;
+color: #3B5998;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;} 
+
+.fa-linkedin { 
+background: #0080FF;
+color: white;
+border: 2px solid #0080FF;}
+
+.fa-instagram { 
+background: #FA58AC; 
+color: white; 
+border: 2px solid #FA58AC; }
+
+.button {
+	margin: 40px;
+  background-color: #3c70a4; 
+  border: 2px solid #3c70a4;
+   border-radius: 12px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+
+
+
+
